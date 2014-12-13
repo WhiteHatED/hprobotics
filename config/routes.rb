@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'static/welcome'
+
+  get 'static/about'
+
+  get 'static/calendar'
+
+  get 'static/forums'
+
+  get 'static/donate'
+
+  get 'static/index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
