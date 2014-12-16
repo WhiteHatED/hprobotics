@@ -38,3 +38,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Test coverage reporter to Code Climate
+gem "codeclimate-test-reporter", group: :test, require: nil
